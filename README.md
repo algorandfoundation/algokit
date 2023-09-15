@@ -1,1 +1,49 @@
-# algokit
+# AlgoKit Developer Universe
+
+<br/>
+<div align="center">
+Welcome to the AlgoKit Developer Universe repo, the one-stop shop for all AlgoKit related repositories and information
+</div>
+<br/>
+
+### AlgoKit CLI  
+<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/algokit?logo=pypi"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/algorandfoundation/algokit-cli?logo=github">
+
+AlgoKit CLI is the one-stop shop tool for developers building on the [Algorand network](https://www.algorand.com/).
+
+AlgoKit gets developers of all levels up and running with a familiar, fun and productive development environment in minutes. The goal of AlgoKit is to help developers build and launch secure, automated production-ready applications rapidly.
+
+[Quick Start Tutorial](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/tutorials/intro.md) | [Documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md)
+
+>[!NOTE] 
+> By using the AlgoKit cli you will use all the below listed packages, no need to install them separately
+
+### AlgoKit Utils 
+A set of core Algorand utilities available in both Python and TypeScript that make it easier to build solutions on Algorand.
+
+The goal of this library is to provide intuitive, productive utility functions that make it easier, quicker and safer to build applications on Algorand. Largely these functions wrap the underlying Algorand SDK, but provide a higher level interface with sensible defaults and capabilities for common tasks.
+
+##### Python 
+<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/algokit-utils?logo=pypi">
+
+[Repo](https://github.com/algorandfoundation/algokit-utils-py#readme) | [Documentation](https://algorandfoundation.github.io/algokit-utils-py/html/index.html) 
+
+
+##### TypeScript 
+<img alt="npm" src="https://img.shields.io/npm/dm/%40algorandfoundation/algokit-utils?logo=npm">
+
+[Repo]() | [Documentation](https://github.com/algorandfoundation/algokit-utils-ts/tree/main/docs)
+
+### Client Generators
+This project generates a type-safe smart contract client in both Python TypeScript for the Algorand Blockchain that wraps the [application client](https://github.com/algorandfoundation/algokit-utils-ts/blob/main/docs/capabilities/app-client.md) in AlgoKit Utils. It does this by reading an [ARC-0032](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0032.md) application spec file.
+
+##### Python 
+<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/algokit-client-generator?logo=pypi">
+
+[Repo](https://github.com/algorandfoundation/algokit-client-generator-py) | [Examples](https://github.com/algorandfoundation/algokit-client-generator-py/tree/main/examples) 
+
+
+##### TypeScript 
+<img alt="npm" src="https://img.shields.io/npm/dm/%40algorandfoundation/algokit-client-generator?logo=npm">
+
+[Repo](https://github.com/algorandfoundation/algokit-client-generator-ts) | [Examples](https://github.com/algorandfoundation/algokit-client-generator-ts/tree/main/examples)
