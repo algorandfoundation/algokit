@@ -13,7 +13,7 @@ AlgoKit CLI is the one-stop shop tool for developers building on the [Algorand n
 
 AlgoKit gets developers of all levels up and running with a familiar, fun and productive development environment in minutes. The goal of AlgoKit is to help developers build and launch secure, automated production-ready applications rapidly.
 
-[Quick Start Tutorial](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/tutorials/intro.md) | [Documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md)
+[Repo](https://github.com/algorandfoundation/algokit-cli) | [Quick Start Tutorial](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/tutorials/intro.md) | [Documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md)
 
 >[!NOTE] 
 > By using the AlgoKit cli you will use all the below listed packages, no need to install them separately
