@@ -1,4 +1,16 @@
 # AlgoKit Developer Universe
+<div align="center">
+<a href="https://github.com/algorandfoundation/algokit"><img src=<img src="https://bafybeickjkfl4mbrhmgr67kentvjr3meixppy2ziqyvpjpkvrlyjacjvua.ipfs.nftstorage.link/" width=60%></a>
+</div>
+
+<p align="center">
+    <a target="_blank" href="https://github.com/algorandfoundation/algokit-cli"><img src="https://img.shields.io/badge/algokit-cli-00dc94?logo=algorand&mac=flat.svg" /></a>
+    <a target="_blank" href="https://github.com/algorandfoundation/algokit-utils-py#readme"><img src="https://img.shields.io/badge/algokit-utils-00dc94?logo=python&mac=flat.svg" /></a>
+    <a target="_blank" href="https://github.com/algorandfoundation/algokit-utils-ts#algokit-typescript-utilities"><img src="https://img.shields.io/badge/algokit-utils-00dc94?logo=typescript&mac=flat.svg" /></a>
+    <a target="_blank" href="https://github.com/algorandfoundation/algokit-client-generator-py"><img src="https://img.shields.io/badge/algokit-client generator-00dc94?logo=python&mac=flat.svg" /></a>
+    <a target="_blank" href="https://github.com/algorandfoundation/algokit-client-generator-ts"><img src="https://img.shields.io/badge/algokit-client generator-00dc94?logo=typescript&mac=flat.svg" /></a>
+
+</p>
 
 <br/>
 <div align="center">
@@ -32,7 +44,7 @@ The goal of this library is to provide intuitive, productive utility functions t
 ##### TypeScript 
 <img alt="npm" src="https://img.shields.io/npm/dm/%40algorandfoundation/algokit-utils?logo=npm">
 
-[Repo]() | [Documentation](https://github.com/algorandfoundation/algokit-utils-ts/tree/main/docs)
+[Repo](https://github.com/algorandfoundation/algokit-utils-ts#algokit-typescript-utilities) | [Documentation](https://github.com/algorandfoundation/algokit-utils-ts/tree/main/docs)
 
 ### Client Generators
 This project generates a type-safe smart contract client in both Python TypeScript for the Algorand Blockchain that wraps the [application client](https://github.com/algorandfoundation/algokit-utils-ts/blob/main/docs/capabilities/app-client.md) in AlgoKit Utils. It does this by reading an [ARC-0032](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0032.md) application spec file.
