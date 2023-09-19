@@ -4,7 +4,7 @@
 
 <br/>
 <div align="center">
-Welcome to the AlgoKit Developer Universe repo, the one-stop shop for all <a href="https://github.com/algorandfoundation/algokit-cli#what-is-algokit" target="_blank"> AlgoKit</a> related repositories and information
+Welcome to the AlgoKit Developer Universe repo, the one-stop shop for all <a href="https://github.com/algorandfoundation/algokit-cli#what-is-algokit"> AlgoKit</a> related repositories and information
 </div>
 <br/>
 <p align="center">
