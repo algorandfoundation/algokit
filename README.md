@@ -1,8 +1,12 @@
-# AlgoKit Developer Universe
 <div align="center">
-<a href="https://github.com/algorandfoundation/algokit"><img src=<img src="https://bafybeickjkfl4mbrhmgr67kentvjr3meixppy2ziqyvpjpkvrlyjacjvua.ipfs.nftstorage.link/" width=60%></a>
+<a href="https://github.com/algorandfoundation/algokit"><img src="https://bafybeickjkfl4mbrhmgr67kentvjr3meixppy2ziqyvpjpkvrlyjacjvua.ipfs.nftstorage.link/"></a>
 </div>
 
+<br/>
+<div align="center">
+Welcome to the AlgoKit Developer Universe repo, the one-stop shop for all AlgoKit related repositories and information
+</div>
+<br/>
 <p align="center">
     <a target="_blank" href="https://github.com/algorandfoundation/algokit-cli"><img src="https://img.shields.io/badge/algokit-cli-00dc94?logo=algorand&mac=flat.svg" /></a>
     <a target="_blank" href="https://github.com/algorandfoundation/algokit-utils-py#readme"><img src="https://img.shields.io/badge/algokit-utils-00dc94?logo=python&mac=flat.svg" /></a>
@@ -11,12 +15,6 @@
     <a target="_blank" href="https://github.com/algorandfoundation/algokit-client-generator-ts"><img src="https://img.shields.io/badge/algokit-client generator-00dc94?logo=typescript&mac=flat.svg" /></a>
 
 </p>
-
-<br/>
-<div align="center">
-Welcome to the AlgoKit Developer Universe repo, the one-stop shop for all AlgoKit related repositories and information
-</div>
-<br/>
 
 ### AlgoKit CLI  
 <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/algokit?logo=pypi"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/algorandfoundation/algokit-cli?logo=github">
