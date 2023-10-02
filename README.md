@@ -57,3 +57,7 @@ This project generates a type-safe smart contract client in both Python TypeScri
 <img alt="npm" src="https://img.shields.io/npm/dm/%40algorandfoundation/algokit-client-generator?logo=npm">
 
 [Repo](https://github.com/algorandfoundation/algokit-client-generator-ts) | [Examples](https://github.com/algorandfoundation/algokit-client-generator-ts/tree/main/examples)
+
+### TestNet Dispenser
+The AlgoKit TestNet Dispenser API provides functionalities to interact with the Dispenser service. This service enables users to fund and refund assets, testnet Algos only for now.
+[Documentation](./docs/testnet_api.md) 
