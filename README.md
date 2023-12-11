@@ -28,6 +28,10 @@ AlgoKit gets developers of all levels up and running with a familiar, fun and pr
 >[!NOTE] 
 > By using the AlgoKit cli you will use all the below listed packages, no need to install them separately
 
+### Puya Compiler
+The Puya compiler enables Python smart contracts on the AVM, currently available in developer preview 
+[Here](https://github.com/algorandfoundation/puya)
+
 ### AlgoKit Utils 
 A set of core Algorand utilities available in both Python and TypeScript that make it easier to build solutions on Algorand.
 
