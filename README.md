@@ -62,6 +62,10 @@ This project generates a type-safe smart contract client in both Python TypeScri
 
 [Repo](https://github.com/algorandfoundation/algokit-client-generator-ts) | [Examples](https://github.com/algorandfoundation/algokit-client-generator-ts/tree/main/examples)
 
+### AVM Debugger
+The AlgoKit AVM VS Code debugger extension provides a convenient way to debug any Algorand Smart Contracts written in TEAL
+[more info](https://marketplace.visualstudio.com/items?itemName=AlgorandFoundation.algokit-avm-vscode-debugger)
+
 ### TestNet Dispenser
 The AlgoKit TestNet Dispenser API provides functionalities to interact with the Dispenser service. This service enables users to fund and refund assets, testnet Algos only for now.
 [Documentation](./docs/testnet_api.md) 
