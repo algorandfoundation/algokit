@@ -6,12 +6,14 @@ The AlgoKit TestNet Dispenser API provides functionalities to interact with the 
 
 ## Base URLs
 
-- **Production Instance (publicly available):**
-  `https://api.dispenser.algorandfoundation.tools`
+-   **Production Instance (publicly available):**
+    `https://api.dispenser.algorandfoundation.tools`
 
 ## Authorization
 
 All API endpoints require an `Authorization` header containing a valid JWT token.
+
+> Refer to [algokit dispenser](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/dispenser.md#login) command documentation to learn how to obtain a valid JWT token by executing `algokit dispenser login --ci` command.
 
 ## Endpoints
 
@@ -36,8 +38,8 @@ Funds a user's wallet with a specified asset.
 
 ```json
 {
-  "txID": "string",
-  "amount": "number"
+    "txID": "string",
+    "amount": "number"
 }
 ```
 
@@ -60,7 +62,7 @@ Fetches the funding limit for a specified asset.
 
 ```json
 {
-  "amount": "number"
+    "amount": "number"
 }
 ```
 
@@ -76,7 +78,7 @@ Allows refunding a transaction. A status code `200` indicates a successful refun
 
 ```json
 {
-  "refundTransactionID": "string"
+    "refundTransactionID": "string"
 }
 ```
 
@@ -114,8 +116,8 @@ All error responses have the following common format:
 
 ```json
 {
-  "code": "string",
-  "message": "string"
+    "code": "string",
+    "message": "string"
 }
 ```
 
@@ -128,9 +130,9 @@ All error responses have the following common format:
 
 ```json
 {
-  "code": "missing_params",
-  "message": "string",
-  "parameters": ["string"]
+    "code": "missing_params",
+    "message": "string",
+    "parameters": ["string"]
 }
 ```
 
@@ -142,10 +144,10 @@ All error responses have the following common format:
 
 ```json
 {
-  "code": "dispenser_fund_limit_exceeded",
-  "message": "string",
-  "limit": "number",
-  "resetsAt": "string"
+    "code": "dispenser_fund_limit_exceeded",
+    "message": "string",
+    "limit": "number",
+    "resetsAt": "string"
 }
 ```
 
