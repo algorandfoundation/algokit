@@ -2,7 +2,6 @@
 
 # AlgoKit Repository Installation Script
 # This script clones all AlgoKit repositories in the same directory structure
-# Excludes: overview and research folders
 
 set -e
 
@@ -130,7 +129,6 @@ clone_repo "utils/algokit-utils-py" "algokit-utils-py"
 clone_repo "utils/algokit-utils-ts" "algokit-utils-ts"
 
 echo -e "${GREEN}All repositories have been processed!${NC}"
-echo -e "${YELLOW}Excluded folders: overview, research${NC}"
 if [ "$USE_SSH" = true ]; then
     echo -e "${BLUE}Used SSH URLs - ensure your SSH keys are configured${NC}"
 else
