@@ -174,7 +174,7 @@ How it helps:
 
 ## Getting Started
 
-****### Quick Install (Recommended)
+### Quick Install (Recommended)
 ```bash
 # Install AlgoKit
 pipx install algokit
