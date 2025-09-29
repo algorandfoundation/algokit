@@ -56,19 +56,19 @@ clone_repo() {
     local repo_name="$2"
     local repo_url=$(get_repo_url "$repo_name")
     local display_name=$(basename "$dir_path")
-    
+
     if [ -d "$dir_path" ]; then
         echo -e "${YELLOW}Directory $dir_path already exists, skipping...${NC}"
         return
     fi
-    
+
     echo -e "${GREEN}Cloning $display_name...${NC}"
-    
+
     # Create parent directory if it doesn't exist
     mkdir -p "$(dirname "$dir_path")"
-    
+
     git clone "$repo_url" "$dir_path"
-    
+
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}✓ Successfully cloned $display_name${NC}"
     else
@@ -96,6 +96,9 @@ clone_repo "core/algokit-core" "algokit-core"
 
 # Dispenser
 clone_repo "dispenser/algokit-dispenser-api" "algokit-dispenser-api"
+
+# Examples
+clone_repo "examples/algokit-example-gallery" "algokit-example-gallery"
 
 # Lora
 clone_repo "lora/algokit-explore" "algokit-explore"
