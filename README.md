@@ -174,6 +174,7 @@ How it helps:
 
 ## Getting Started
 
+****### Quick Install (Recommended)
 ```bash
 # Install AlgoKit
 pipx install algokit
@@ -183,6 +184,30 @@ algokit init
 
 # Start building!
 ```
+
+### Developer Setup - Clone All Repositories
+
+If you're contributing to AlgoKit or want to work with the full source code locally, you can clone all AlgoKit repositories at once:
+
+```bash
+# One-liner: Download and run the installation script
+curl -sSL https://raw.githubusercontent.com/algorandfoundation/algokit/main/scripts/install_all_repos.sh | bash
+```
+
+Or download first to inspect:
+```bash
+# Download the script
+curl -sSL https://raw.githubusercontent.com/algorandfoundation/algokit/main/scripts/install_all_repos.sh -o install_algokit.sh
+
+# Make it executable and run
+chmod +x install_algokit.sh
+./install_algokit.sh
+```
+
+This script will:
+- Clone all AlgoKit repositories into an organized directory structure
+- Give you the choice between HTTPS or SSH URLs
+- Skip repositories that already exist locally
 
 ## Next Steps
 
